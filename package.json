@@ -1,5 +1,6 @@
 {
   "name": "video-podcast",
+  "packageManager": "pnpm@10.30.1",
   "private": true,
   "scripts": {
     "check": "biome ci .",
