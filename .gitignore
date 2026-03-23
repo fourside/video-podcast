@@ -1,0 +1,10 @@
+node_modules/
+.wrangler/
+.env
+.dev.vars
+downloaded.txt
+*.mp4
+*.info.json
+*.jpg
+*.webp
+PLAN*.md

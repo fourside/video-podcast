@@ -1,0 +1,21 @@
+{
+  "name": "video-podcast",
+  "private": true,
+  "scripts": {
+    "check": "biome ci .",
+    "test": "vitest run",
+    "typecheck": "tsc -p shared/tsconfig.json --noEmit && tsc -p worker/tsconfig.json --noEmit && tsc -p downloader/tsconfig.json --noEmit",
+    "prepare": "git config --local core.hooksPath .githooks"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.1.0",
+    "typescript": "^5.8.0",
+    "vitest": "^4.1.0"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild",
+      "workerd"
+    ]
+  }
+}

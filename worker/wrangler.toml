@@ -1,0 +1,10 @@
+name = "video-podcast"
+main = "src/index.ts"
+compatibility_date = "2026-03-23"
+
+[[r2_buckets]]
+binding = "BUCKET"
+bucket_name = "video-podcast"
+
+[vars]
+HOST = "https://video-podcast.fourside.dev"

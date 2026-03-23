@@ -1,0 +1,5 @@
+#!/bin/sh
+set -xe
+pnpm run check
+pnpm run typecheck
+pnpm run test
